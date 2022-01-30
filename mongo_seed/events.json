@@ -1,0 +1,1401 @@
+[{
+    "event_name": "Tagpad",
+    "event_date": "03/09/2021",
+    "event_time": "20:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 17.9492451,
+      "latitude": 59.3449175
+    },
+    "event_price": "$1301.55",
+    "event_category": "VVIP",
+    "event_description": "platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna",
+    "event_gate": "GATE 4",
+    "event_tickets": 4475
+  }, {
+    "event_name": "Livetube",
+    "event_date": "19/10/2021",
+    "event_time": "17:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 116.993893,
+      "latitude": 36.833095
+    },
+    "event_price": "$1696.30",
+    "event_category": "VIP",
+    "event_description": "posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed",
+    "event_gate": "GATE 4",
+    "event_tickets": 8501
+  }, {
+    "event_name": "Twimm",
+    "event_date": "16/02/2021",
+    "event_time": "19:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 100.5340482,
+      "latitude": 13.7544241
+    },
+    "event_price": "$636.62",
+    "event_category": "Gold",
+    "event_description": "mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc",
+    "event_gate": "GATE 4",
+    "event_tickets": 3509
+  }, {
+    "event_name": "Yabox",
+    "event_date": "21/11/2021",
+    "event_time": "17:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 113.804931,
+      "latitude": -8.2216521
+    },
+    "event_price": "$2834.63",
+    "event_category": "Silver",
+    "event_description": "in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et",
+    "event_gate": "GATE 10",
+    "event_tickets": 5619
+  }, {
+    "event_name": "Mydo",
+    "event_date": "18/02/2022",
+    "event_time": "16:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": 121.3602832,
+      "latitude": 31.244331
+    },
+    "event_price": "$1283.90",
+    "event_category": "VVIP",
+    "event_description": "urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac",
+    "event_gate": "GATE 7",
+    "event_tickets": 9357
+  }, {
+    "event_name": "Jazzy",
+    "event_date": "11/04/2021",
+    "event_time": "20:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 2.3023878,
+      "latitude": 48.6066876
+    },
+    "event_price": "$1689.49",
+    "event_category": "VVIP",
+    "event_description": "lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus",
+    "event_gate": "GATE 8",
+    "event_tickets": 1690
+  }, {
+    "event_name": "Thoughtmix",
+    "event_date": "16/04/2022",
+    "event_time": "23:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 5.9122583,
+      "latitude": 49.6875145
+    },
+    "event_price": "$1630.86",
+    "event_category": "None",
+    "event_description": "erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit",
+    "event_gate": "GATE 8",
+    "event_tickets": 1954
+  }, {
+    "event_name": "Zoomdog",
+    "event_date": "14/05/2022",
+    "event_time": "20:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 2.3458952,
+      "latitude": 48.9352465
+    },
+    "event_price": "$2943.54",
+    "event_category": "Platinum",
+    "event_description": "vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio",
+    "event_gate": "GATE 9",
+    "event_tickets": 1082
+  }, {
+    "event_name": "Oodoo",
+    "event_date": "09/03/2022",
+    "event_time": "21:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 31.5040656,
+      "latitude": 30.5765383
+    },
+    "event_price": "$1109.23",
+    "event_category": "Platinum",
+    "event_description": "mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum",
+    "event_gate": "GATE 9",
+    "event_tickets": 6062
+  }, {
+    "event_name": "Jabbersphere",
+    "event_date": "03/10/2021",
+    "event_time": "16:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": -78.25705,
+      "latitude": -6.906714
+    },
+    "event_price": "$1473.65",
+    "event_category": "VIP",
+    "event_description": "ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit",
+    "event_gate": "GATE 7",
+    "event_tickets": 8285
+  }, {
+    "event_name": "Zoombox",
+    "event_date": "08/05/2021",
+    "event_time": "20:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 6.792905,
+      "latitude": 11.7323018
+    },
+    "event_price": "$2959.86",
+    "event_category": "Platinum",
+    "event_description": "ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit",
+    "event_gate": "GATE 4",
+    "event_tickets": 2711
+  }, {
+    "event_name": "Meedoo",
+    "event_date": "28/03/2022",
+    "event_time": "16:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 102.2462087,
+      "latitude": 6.1097207
+    },
+    "event_price": "$716.20",
+    "event_category": "VIP",
+    "event_description": "amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum",
+    "event_gate": "GATE 7",
+    "event_tickets": 7427
+  }, {
+    "event_name": "Jetwire",
+    "event_date": "03/04/2022",
+    "event_time": "20:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": 30.2801166,
+      "latitude": 0.6546257
+    },
+    "event_price": "$1968.50",
+    "event_category": "VIP",
+    "event_description": "eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut",
+    "event_gate": "GATE 2",
+    "event_tickets": 3409
+  }, {
+    "event_name": "Edgepulse",
+    "event_date": "09/06/2022",
+    "event_time": "22:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": -70.4059336,
+      "latitude": 18.9331158
+    },
+    "event_price": "$44.68",
+    "event_category": "VIP",
+    "event_description": "lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas",
+    "event_gate": "GATE 4",
+    "event_tickets": 8848
+  }, {
+    "event_name": "Skynoodle",
+    "event_date": "01/11/2020",
+    "event_time": "22:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 112.76878,
+      "latitude": -8.0372299
+    },
+    "event_price": "$962.42",
+    "event_category": "VIP",
+    "event_description": "turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor",
+    "event_gate": "GATE 10",
+    "event_tickets": 7279
+  }, {
+    "event_name": "Feedfire",
+    "event_date": "23/06/2022",
+    "event_time": "22:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 70.55,
+      "latitude": 34.55
+    },
+    "event_price": "$856.40",
+    "event_category": "VVIP",
+    "event_description": "montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis",
+    "event_gate": "GATE 2",
+    "event_tickets": 7811
+  }, {
+    "event_name": "Jaxworks",
+    "event_date": "03/12/2021",
+    "event_time": "23:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 120.989883,
+      "latitude": 14.437059
+    },
+    "event_price": "$1509.66",
+    "event_category": "Gold",
+    "event_description": "magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor",
+    "event_gate": "GATE 4",
+    "event_tickets": 9551
+  }, {
+    "event_name": "Topicware",
+    "event_date": "25/10/2020",
+    "event_time": "16:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": -70.9586889,
+      "latitude": -30.6978944
+    },
+    "event_price": "$1576.34",
+    "event_category": "Silver",
+    "event_description": "augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus",
+    "event_gate": "GATE 10",
+    "event_tickets": 5655
+  }, {
+    "event_name": "Aimbu",
+    "event_date": "21/01/2021",
+    "event_time": "19:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 60.398557,
+      "latitude": 41.8563033
+    },
+    "event_price": "$1212.06",
+    "event_category": "VVIP",
+    "event_description": "in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur",
+    "event_gate": "GATE 7",
+    "event_tickets": 8265
+  }, {
+    "event_name": "Flipbug",
+    "event_date": "04/06/2022",
+    "event_time": "18:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 10.7362308,
+      "latitude": 59.9149479
+    },
+    "event_price": "$2218.30",
+    "event_category": "Gold",
+    "event_description": "pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis",
+    "event_gate": "GATE 7",
+    "event_tickets": 4436
+  }, {
+    "event_name": "Gigashots",
+    "event_date": "29/10/2021",
+    "event_time": "22:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 114.2138957,
+      "latitude": 34.1009765
+    },
+    "event_price": "$2543.51",
+    "event_category": "None",
+    "event_description": "interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa",
+    "event_gate": "GATE 6",
+    "event_tickets": 3025
+  }, {
+    "event_name": "Zoozzy",
+    "event_date": "04/02/2021",
+    "event_time": "19:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 124.48333,
+      "latitude": 48.48333
+    },
+    "event_price": "$1807.33",
+    "event_category": "VIP",
+    "event_description": "nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat",
+    "event_gate": "GATE 9",
+    "event_tickets": 8628
+  }, {
+    "event_name": "Digitube",
+    "event_date": "27/06/2021",
+    "event_time": "21:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 133.599128,
+      "latitude": -2.0992602
+    },
+    "event_price": "$37.54",
+    "event_category": "Gold",
+    "event_description": "dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum",
+    "event_gate": "GATE 9",
+    "event_tickets": 3846
+  }, {
+    "event_name": "Podcat",
+    "event_date": "25/03/2022",
+    "event_time": "20:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 109.23577,
+      "latitude": -7.62385
+    },
+    "event_price": "$915.82",
+    "event_category": "VIP",
+    "event_description": "libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis",
+    "event_gate": "GATE 6",
+    "event_tickets": 9556
+  }, {
+    "event_name": "Demivee",
+    "event_date": "16/12/2021",
+    "event_time": "17:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": -47.4013437,
+      "latitude": -20.5393288
+    },
+    "event_price": "$1874.79",
+    "event_category": "VIP",
+    "event_description": "integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget",
+    "event_gate": "GATE 9",
+    "event_tickets": 5000
+  }, {
+    "event_name": "Gabcube",
+    "event_date": "10/10/2020",
+    "event_time": "19:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": -108.4295552,
+      "latitude": 54.1212091
+    },
+    "event_price": "$351.60",
+    "event_category": "Platinum",
+    "event_description": "lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat",
+    "event_gate": "GATE 6",
+    "event_tickets": 9821
+  }, {
+    "event_name": "Feedfish",
+    "event_date": "15/06/2021",
+    "event_time": "23:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 36.7738708,
+      "latitude": 32.7407045
+    },
+    "event_price": "$1623.24",
+    "event_category": "VIP",
+    "event_description": "suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat",
+    "event_gate": "GATE 4",
+    "event_tickets": 8679
+  }, {
+    "event_name": "Jabbersphere",
+    "event_date": "30/01/2022",
+    "event_time": "22:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": -77.0336768,
+      "latitude": 38.8987281
+    },
+    "event_price": "$1183.53",
+    "event_category": "Gold",
+    "event_description": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien",
+    "event_gate": "GATE 8",
+    "event_tickets": 1189
+  }, {
+    "event_name": "Fiveclub",
+    "event_date": "24/03/2021",
+    "event_time": "16:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 106.8213934,
+      "latitude": -6.2315975
+    },
+    "event_price": "$2375.16",
+    "event_category": "None",
+    "event_description": "volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
+    "event_gate": "GATE 10",
+    "event_tickets": 1187
+  }, {
+    "event_name": "Skiptube",
+    "event_date": "05/02/2021",
+    "event_time": "22:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 125.744735,
+      "latitude": 42.284605
+    },
+    "event_price": "$1351.35",
+    "event_category": "VIP",
+    "event_description": "aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut",
+    "event_gate": "GATE 3",
+    "event_tickets": 4941
+  }, {
+    "event_name": "Youbridge",
+    "event_date": "16/04/2021",
+    "event_time": "21:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 19.1107114,
+      "latitude": -24.1377718
+    },
+    "event_price": "$1190.60",
+    "event_category": "Gold",
+    "event_description": "primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non",
+    "event_gate": "GATE 4",
+    "event_tickets": 7051
+  }, {
+    "event_name": "Meevee",
+    "event_date": "05/04/2022",
+    "event_time": "16:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 106.7175669,
+      "latitude": -6.4306844
+    },
+    "event_price": "$2292.50",
+    "event_category": "Silver",
+    "event_description": "suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit",
+    "event_gate": "GATE 7",
+    "event_tickets": 4718
+  }, {
+    "event_name": "Blogtags",
+    "event_date": "10/05/2022",
+    "event_time": "18:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": -21.9494552,
+      "latitude": 64.1405188
+    },
+    "event_price": "$892.99",
+    "event_category": "VIP",
+    "event_description": "ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris",
+    "event_gate": "GATE 6",
+    "event_tickets": 5510
+  }, {
+    "event_name": "Centimia",
+    "event_date": "22/10/2020",
+    "event_time": "23:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 42.9238906,
+      "latitude": 51.3312362
+    },
+    "event_price": "$817.61",
+    "event_category": "Gold",
+    "event_description": "convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam",
+    "event_gate": "GATE 2",
+    "event_tickets": 3507
+  }, {
+    "event_name": "Gabtype",
+    "event_date": "28/03/2022",
+    "event_time": "20:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": -0.5210565,
+      "latitude": 38.3628307
+    },
+    "event_price": "$2459.32",
+    "event_category": "None",
+    "event_description": "duis bibendum morbi non quam nec dui luctus rutrum nulla tellus",
+    "event_gate": "GATE 6",
+    "event_tickets": 6501
+  }, {
+    "event_name": "Fanoodle",
+    "event_date": "04/09/2021",
+    "event_time": "20:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 44.066667,
+      "latitude": 15.933333
+    },
+    "event_price": "$2586.28",
+    "event_category": "VVIP",
+    "event_description": "potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam",
+    "event_gate": "GATE 2",
+    "event_tickets": 9120
+  }, {
+    "event_name": "Kayveo",
+    "event_date": "07/08/2020",
+    "event_time": "18:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": -45.0056921,
+      "latitude": -19.2236514
+    },
+    "event_price": "$2113.51",
+    "event_category": "VIP",
+    "event_description": "suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam",
+    "event_gate": "GATE 4",
+    "event_tickets": 5988
+  }, {
+    "event_name": "Twimbo",
+    "event_date": "15/03/2022",
+    "event_time": "21:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 6.3130893,
+      "latitude": 51.9500617
+    },
+    "event_price": "$598.73",
+    "event_category": "Platinum",
+    "event_description": "nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non",
+    "event_gate": "GATE 2",
+    "event_tickets": 7461
+  }, {
+    "event_name": "Vitz",
+    "event_date": "04/10/2020",
+    "event_time": "23:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 91.3565692,
+      "latitude": 24.5063217
+    },
+    "event_price": "$955.04",
+    "event_category": "Gold",
+    "event_description": "dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+    "event_gate": "GATE 2",
+    "event_tickets": 1743
+  }, {
+    "event_name": "Quatz",
+    "event_date": "12/06/2022",
+    "event_time": "16:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": -38.5743503,
+      "latitude": -8.5969261
+    },
+    "event_price": "$2702.15",
+    "event_category": "Platinum",
+    "event_description": "neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit",
+    "event_gate": "GATE 10",
+    "event_tickets": 2867
+  }, {
+    "event_name": "Photobug",
+    "event_date": "14/11/2020",
+    "event_time": "20:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": -63.0334803,
+      "latitude": -32.0974801
+    },
+    "event_price": "$58.18",
+    "event_category": "Silver",
+    "event_description": "in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst",
+    "event_gate": "GATE 10",
+    "event_tickets": 7241
+  }, {
+    "event_name": "Photobug",
+    "event_date": "07/07/2021",
+    "event_time": "20:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 110.4947314,
+      "latitude": -7.3055182
+    },
+    "event_price": "$2976.30",
+    "event_category": "Gold",
+    "event_description": "elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla",
+    "event_gate": "GATE 3",
+    "event_tickets": 3379
+  }, {
+    "event_name": "Topicshots",
+    "event_date": "15/08/2021",
+    "event_time": "17:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 106.7996647,
+      "latitude": -6.1999592
+    },
+    "event_price": "$2207.81",
+    "event_category": "VIP",
+    "event_description": "blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget",
+    "event_gate": "GATE 8",
+    "event_tickets": 6253
+  }, {
+    "event_name": "Tazzy",
+    "event_date": "20/10/2020",
+    "event_time": "21:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": -76.6701475,
+      "latitude": -12.6117479
+    },
+    "event_price": "$428.35",
+    "event_category": "None",
+    "event_description": "ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac",
+    "event_gate": "GATE 7",
+    "event_tickets": 6182
+  }, {
+    "event_name": "Fiveclub",
+    "event_date": "24/03/2022",
+    "event_time": "23:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 123.9881642,
+      "latitude": 12.6679167
+    },
+    "event_price": "$1376.10",
+    "event_category": "Platinum",
+    "event_description": "nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales",
+    "event_gate": "GATE 3",
+    "event_tickets": 3750
+  }, {
+    "event_name": "Feedspan",
+    "event_date": "22/02/2022",
+    "event_time": "16:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 122.9796796,
+      "latitude": -8.3278028
+    },
+    "event_price": "$691.55",
+    "event_category": "Silver",
+    "event_description": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+    "event_gate": "GATE 4",
+    "event_tickets": 6466
+  }, {
+    "event_name": "Devcast",
+    "event_date": "22/06/2021",
+    "event_time": "20:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 121.167368,
+      "latitude": 30.224367
+    },
+    "event_price": "$583.56",
+    "event_category": "None",
+    "event_description": "eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum",
+    "event_gate": "GATE 8",
+    "event_tickets": 8976
+  }, {
+    "event_name": "Quamba",
+    "event_date": "03/04/2021",
+    "event_time": "19:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 116.948097,
+      "latitude": 40.381657
+    },
+    "event_price": "$790.63",
+    "event_category": "VIP",
+    "event_description": "venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem",
+    "event_gate": "GATE 1",
+    "event_tickets": 9504
+  }, {
+    "event_name": "Voomm",
+    "event_date": "24/09/2020",
+    "event_time": "23:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": -69.6892254,
+      "latitude": -15.2159658
+    },
+    "event_price": "$1452.59",
+    "event_category": "Gold",
+    "event_description": "porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero",
+    "event_gate": "GATE 1",
+    "event_tickets": 6289
+  }, {
+    "event_name": "Youspan",
+    "event_date": "10/12/2021",
+    "event_time": "17:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": -39.0653656,
+      "latitude": -16.4443537
+    },
+    "event_price": "$732.41",
+    "event_category": "Silver",
+    "event_description": "interdum venenatis turpis enim blandit mi in porttitor pede justo",
+    "event_gate": "GATE 1",
+    "event_tickets": 4131
+  }, {
+    "event_name": "Skalith",
+    "event_date": "20/06/2022",
+    "event_time": "23:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 136.6477771,
+      "latitude": 36.3213507
+    },
+    "event_price": "$1333.68",
+    "event_category": "None",
+    "event_description": "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla",
+    "event_gate": "GATE 5",
+    "event_tickets": 2318
+  }, {
+    "event_name": "Kimia",
+    "event_date": "10/04/2022",
+    "event_time": "16:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 12.5375058,
+      "latitude": 55.6817886
+    },
+    "event_price": "$1946.44",
+    "event_category": "Silver",
+    "event_description": "lectus pellentesque at nulla suspendisse potenti cras in purus eu",
+    "event_gate": "GATE 3",
+    "event_tickets": 8397
+  }, {
+    "event_name": "Twitterbeat",
+    "event_date": "02/04/2021",
+    "event_time": "16:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 101.642899,
+      "latitude": 2.100305
+    },
+    "event_price": "$1582.54",
+    "event_category": "None",
+    "event_description": "enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus",
+    "event_gate": "GATE 1",
+    "event_tickets": 5154
+  }, {
+    "event_name": "Jatri",
+    "event_date": "09/06/2022",
+    "event_time": "19:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 123.475937,
+      "latitude": 40.554374
+    },
+    "event_price": "$180.13",
+    "event_category": "None",
+    "event_description": "et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in",
+    "event_gate": "GATE 10",
+    "event_tickets": 2399
+  }, {
+    "event_name": "Babblestorm",
+    "event_date": "10/12/2021",
+    "event_time": "21:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 15.65,
+      "latitude": 44.18333
+    },
+    "event_price": "$1433.54",
+    "event_category": "None",
+    "event_description": "curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi",
+    "event_gate": "GATE 9",
+    "event_tickets": 2061
+  }, {
+    "event_name": "Kazu",
+    "event_date": "19/12/2020",
+    "event_time": "20:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 52.9009502,
+      "latitude": 36.6454207
+    },
+    "event_price": "$949.60",
+    "event_category": "VVIP",
+    "event_description": "platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse",
+    "event_gate": "GATE 9",
+    "event_tickets": 6087
+  }, {
+    "event_name": "Tagtune",
+    "event_date": "21/05/2021",
+    "event_time": "23:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 121.0702642,
+      "latitude": 14.7342524
+    },
+    "event_price": "$663.10",
+    "event_category": "VIP",
+    "event_description": "semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras",
+    "event_gate": "GATE 2",
+    "event_tickets": 6326
+  }, {
+    "event_name": "Geba",
+    "event_date": "21/10/2021",
+    "event_time": "23:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 0.1639479,
+      "latitude": 49.476996
+    },
+    "event_price": "$2313.04",
+    "event_category": "Platinum",
+    "event_description": "proin eu mi nulla ac enim in tempor turpis nec euismod",
+    "event_gate": "GATE 9",
+    "event_tickets": 5550
+  }, {
+    "event_name": "Feednation",
+    "event_date": "04/07/2021",
+    "event_time": "22:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": -9.2280364,
+      "latitude": 38.7087189
+    },
+    "event_price": "$2908.81",
+    "event_category": "Gold",
+    "event_description": "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci",
+    "event_gate": "GATE 7",
+    "event_tickets": 2536
+  }, {
+    "event_name": "Teklist",
+    "event_date": "24/10/2020",
+    "event_time": "16:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 35.1624,
+      "latitude": 31.95402
+    },
+    "event_price": "$2282.33",
+    "event_category": "None",
+    "event_description": "suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit",
+    "event_gate": "GATE 4",
+    "event_tickets": 5923
+  }, {
+    "event_name": "Twitterlist",
+    "event_date": "30/09/2021",
+    "event_time": "22:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": 113.8614481,
+      "latitude": -7.1293653
+    },
+    "event_price": "$1870.28",
+    "event_category": "Platinum",
+    "event_description": "duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla",
+    "event_gate": "GATE 10",
+    "event_tickets": 7807
+  }, {
+    "event_name": "Cogilith",
+    "event_date": "03/12/2021",
+    "event_time": "18:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": 17.300175,
+      "latitude": 62.3873541
+    },
+    "event_price": "$1175.84",
+    "event_category": "Silver",
+    "event_description": "luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis",
+    "event_gate": "GATE 5",
+    "event_tickets": 3180
+  }, {
+    "event_name": "Edgetag",
+    "event_date": "28/09/2021",
+    "event_time": "16:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 24.0942729,
+      "latitude": 53.0358086
+    },
+    "event_price": "$1421.77",
+    "event_category": "Silver",
+    "event_description": "in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum",
+    "event_gate": "GATE 9",
+    "event_tickets": 2710
+  }, {
+    "event_name": "Trilith",
+    "event_date": "28/12/2021",
+    "event_time": "23:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 16.4839317,
+      "latitude": 45.1462441
+    },
+    "event_price": "$1943.16",
+    "event_category": "Platinum",
+    "event_description": "diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien",
+    "event_gate": "GATE 2",
+    "event_tickets": 7002
+  }, {
+    "event_name": "Yabox",
+    "event_date": "05/05/2022",
+    "event_time": "22:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 22.8008984,
+      "latitude": 37.9375856
+    },
+    "event_price": "$403.22",
+    "event_category": "VIP",
+    "event_description": "vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum",
+    "event_gate": "GATE 5",
+    "event_tickets": 3660
+  }, {
+    "event_name": "Trilith",
+    "event_date": "01/05/2021",
+    "event_time": "23:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 114.645657,
+      "latitude": 38.062428
+    },
+    "event_price": "$2143.29",
+    "event_category": "Platinum",
+    "event_description": "augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi",
+    "event_gate": "GATE 8",
+    "event_tickets": 6653
+  }, {
+    "event_name": "Edgewire",
+    "event_date": "03/08/2021",
+    "event_time": "23:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 41.9594576,
+      "latitude": 50.7326515
+    },
+    "event_price": "$1716.34",
+    "event_category": "Gold",
+    "event_description": "primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor",
+    "event_gate": "GATE 3",
+    "event_tickets": 5050
+  }, {
+    "event_name": "Meevee",
+    "event_date": "15/11/2020",
+    "event_time": "23:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 87.648747,
+      "latitude": 29.083994
+    },
+    "event_price": "$2381.44",
+    "event_category": "VIP",
+    "event_description": "lorem ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien",
+    "event_gate": "GATE 4",
+    "event_tickets": 6792
+  }, {
+    "event_name": "Zoomcast",
+    "event_date": "28/09/2020",
+    "event_time": "21:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 111.5793,
+      "latitude": -8.0604
+    },
+    "event_price": "$954.94",
+    "event_category": "Platinum",
+    "event_description": "lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit",
+    "event_gate": "GATE 5",
+    "event_tickets": 7964
+  }, {
+    "event_name": "Dynabox",
+    "event_date": "07/07/2022",
+    "event_time": "21:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": -118.07,
+      "latitude": 33.97
+    },
+    "event_price": "$673.31",
+    "event_category": "Silver",
+    "event_description": "lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet",
+    "event_gate": "GATE 7",
+    "event_tickets": 4855
+  }, {
+    "event_name": "Pixoboo",
+    "event_date": "20/08/2020",
+    "event_time": "16:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 105.2955575,
+      "latitude": -5.3810959
+    },
+    "event_price": "$2903.03",
+    "event_category": "None",
+    "event_description": "bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet",
+    "event_gate": "GATE 5",
+    "event_tickets": 3397
+  }, {
+    "event_name": "DabZ",
+    "event_date": "09/03/2021",
+    "event_time": "23:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 101.1539414,
+      "latitude": 19.1527452
+    },
+    "event_price": "$1319.14",
+    "event_category": "VIP",
+    "event_description": "augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida",
+    "event_gate": "GATE 8",
+    "event_tickets": 630
+  }, {
+    "event_name": "Livepath",
+    "event_date": "07/08/2021",
+    "event_time": "21:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 120.436781,
+      "latitude": 32.116246
+    },
+    "event_price": "$457.46",
+    "event_category": "Platinum",
+    "event_description": "hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec",
+    "event_gate": "GATE 2",
+    "event_tickets": 2001
+  }, {
+    "event_name": "Voonte",
+    "event_date": "13/12/2020",
+    "event_time": "16:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 107.913127,
+      "latitude": 27.788371
+    },
+    "event_price": "$2725.89",
+    "event_category": "VVIP",
+    "event_description": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue",
+    "event_gate": "GATE 10",
+    "event_tickets": 3728
+  }, {
+    "event_name": "Vitz",
+    "event_date": "10/02/2021",
+    "event_time": "21:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": 120.3688477,
+      "latitude": 15.8368547
+    },
+    "event_price": "$1183.59",
+    "event_category": "VVIP",
+    "event_description": "eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et",
+    "event_gate": "GATE 4",
+    "event_tickets": 3618
+  }, {
+    "event_name": "Quinu",
+    "event_date": "25/05/2022",
+    "event_time": "16:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 110.5930548,
+      "latitude": -2.321899
+    },
+    "event_price": "$719.21",
+    "event_category": "Gold",
+    "event_description": "hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci",
+    "event_gate": "GATE 9",
+    "event_tickets": 2233
+  }, {
+    "event_name": "Fliptune",
+    "event_date": "09/04/2021",
+    "event_time": "21:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 21.0670387,
+      "latitude": 42.6869167
+    },
+    "event_price": "$2334.05",
+    "event_category": "None",
+    "event_description": "ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue",
+    "event_gate": "GATE 6",
+    "event_tickets": 1339
+  }, {
+    "event_name": "Thoughtworks",
+    "event_date": "21/12/2020",
+    "event_time": "19:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 102.6395,
+      "latitude": 35.83339
+    },
+    "event_price": "$529.66",
+    "event_category": "Gold",
+    "event_description": "pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi",
+    "event_gate": "GATE 2",
+    "event_tickets": 2566
+  }, {
+    "event_name": "Twitterbridge",
+    "event_date": "24/07/2022",
+    "event_time": "16:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 124.086692,
+      "latitude": 8.189424
+    },
+    "event_price": "$1209.62",
+    "event_category": "Silver",
+    "event_description": "eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus",
+    "event_gate": "GATE 9",
+    "event_tickets": 4101
+  }, {
+    "event_name": "Ainyx",
+    "event_date": "25/04/2021",
+    "event_time": "19:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": -86.5728785,
+      "latitude": 14.8288248
+    },
+    "event_price": "$2438.41",
+    "event_category": "Gold",
+    "event_description": "tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla",
+    "event_gate": "GATE 9",
+    "event_tickets": 6985
+  }, {
+    "event_name": "Kazio",
+    "event_date": "04/01/2021",
+    "event_time": "17:00",
+    "event_day": "Tuesday",
+    "event_location": {
+      "longitude": 18.1855698,
+      "latitude": 59.3542694
+    },
+    "event_price": "$2628.17",
+    "event_category": "Platinum",
+    "event_description": "aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas",
+    "event_gate": "GATE 5",
+    "event_tickets": 6335
+  }, {
+    "event_name": "Rhybox",
+    "event_date": "08/11/2020",
+    "event_time": "16:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 39.526478,
+      "latitude": 55.5772494
+    },
+    "event_price": "$596.17",
+    "event_category": "Platinum",
+    "event_description": "in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac",
+    "event_gate": "GATE 2",
+    "event_tickets": 4011
+  }, {
+    "event_name": "Bubbletube",
+    "event_date": "17/05/2022",
+    "event_time": "21:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 36.8219462,
+      "latitude": -1.2920659
+    },
+    "event_price": "$2619.86",
+    "event_category": "Silver",
+    "event_description": "platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse",
+    "event_gate": "GATE 9",
+    "event_tickets": 8951
+  }, {
+    "event_name": "Eabox",
+    "event_date": "21/12/2020",
+    "event_time": "23:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 16.9811758,
+      "latitude": 53.9858812
+    },
+    "event_price": "$2543.74",
+    "event_category": "None",
+    "event_description": "adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc",
+    "event_gate": "GATE 4",
+    "event_tickets": 6540
+  }, {
+    "event_name": "Realmix",
+    "event_date": "27/10/2021",
+    "event_time": "23:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 121.021201,
+      "latitude": 14.5700525
+    },
+    "event_price": "$1667.40",
+    "event_category": "Silver",
+    "event_description": "in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit",
+    "event_gate": "GATE 10",
+    "event_tickets": 480
+  }, {
+    "event_name": "Brainsphere",
+    "event_date": "20/05/2021",
+    "event_time": "21:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 100.663597,
+      "latitude": 0.93669
+    },
+    "event_price": "$1763.70",
+    "event_category": "VIP",
+    "event_description": "etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa",
+    "event_gate": "GATE 9",
+    "event_tickets": 6654
+  }, {
+    "event_name": "Brainverse",
+    "event_date": "19/01/2021",
+    "event_time": "18:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 111.7778618,
+      "latitude": -8.154229
+    },
+    "event_price": "$43.50",
+    "event_category": "VIP",
+    "event_description": "non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non",
+    "event_gate": "GATE 4",
+    "event_tickets": 6748
+  }, {
+    "event_name": "Chatterbridge",
+    "event_date": "10/11/2020",
+    "event_time": "22:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 111.9671537,
+      "latitude": -6.7905128
+    },
+    "event_price": "$2189.89",
+    "event_category": "Platinum",
+    "event_description": "ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+    "event_gate": "GATE 1",
+    "event_tickets": 6071
+  }, {
+    "event_name": "Skimia",
+    "event_date": "04/02/2022",
+    "event_time": "22:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": -72.3017718,
+      "latitude": -36.7421593
+    },
+    "event_price": "$2837.31",
+    "event_category": "Silver",
+    "event_description": "in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
+    "event_gate": "GATE 10",
+    "event_tickets": 9416
+  }, {
+    "event_name": "Fivebridge",
+    "event_date": "22/12/2020",
+    "event_time": "22:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 22.5498389,
+      "latitude": 4.3139754
+    },
+    "event_price": "$2657.17",
+    "event_category": "VVIP",
+    "event_description": "nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate",
+    "event_gate": "GATE 10",
+    "event_tickets": 1694
+  }, {
+    "event_name": "Thoughtstorm",
+    "event_date": "18/12/2021",
+    "event_time": "20:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 120.765351,
+      "latitude": 14.31865
+    },
+    "event_price": "$861.98",
+    "event_category": "VVIP",
+    "event_description": "consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque",
+    "event_gate": "GATE 4",
+    "event_tickets": 7751
+  }, {
+    "event_name": "Tazz",
+    "event_date": "10/08/2021",
+    "event_time": "18:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 117.151796,
+      "latitude": 28.97844
+    },
+    "event_price": "$1859.29",
+    "event_category": "Silver",
+    "event_description": "vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget",
+    "event_gate": "GATE 4",
+    "event_tickets": 2559
+  }, {
+    "event_name": "Aibox",
+    "event_date": "01/06/2022",
+    "event_time": "22:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 113.2344326,
+      "latitude": 48.5686975
+    },
+    "event_price": "$2289.25",
+    "event_category": "Silver",
+    "event_description": "pede libero quis orci nullam molestie nibh in lectus pellentesque",
+    "event_gate": "GATE 9",
+    "event_tickets": 4313
+  }, {
+    "event_name": "Centidel",
+    "event_date": "14/10/2020",
+    "event_time": "20:00",
+    "event_day": "Thursday",
+    "event_location": {
+      "longitude": 113.543873,
+      "latitude": 22.198745
+    },
+    "event_price": "$1439.77",
+    "event_category": "Platinum",
+    "event_description": "vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt",
+    "event_gate": "GATE 8",
+    "event_tickets": 8873
+  }, {
+    "event_name": "Quatz",
+    "event_date": "22/04/2021",
+    "event_time": "23:00",
+    "event_day": "Wednesday",
+    "event_location": {
+      "longitude": 35.04529,
+      "latitude": 32.152799
+    },
+    "event_price": "$2258.33",
+    "event_category": "None",
+    "event_description": "duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
+    "event_gate": "GATE 8",
+    "event_tickets": 2198
+  }, {
+    "event_name": "Skipfire",
+    "event_date": "04/02/2021",
+    "event_time": "20:00",
+    "event_day": "Sunday",
+    "event_location": {
+      "longitude": 32.043969,
+      "latitude": -18.2898667
+    },
+    "event_price": "$1895.24",
+    "event_category": "Silver",
+    "event_description": "venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse",
+    "event_gate": "GATE 3",
+    "event_tickets": 5997
+  }, {
+    "event_name": "Jaxbean",
+    "event_date": "31/03/2021",
+    "event_time": "21:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": 18.8445446,
+      "latitude": 49.7709142
+    },
+    "event_price": "$2205.49",
+    "event_category": "VVIP",
+    "event_description": "in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed",
+    "event_gate": "GATE 6",
+    "event_tickets": 5894
+  }, {
+    "event_name": "Zoomlounge",
+    "event_date": "05/01/2021",
+    "event_time": "21:00",
+    "event_day": "Saturday",
+    "event_location": {
+      "longitude": 17.8367375,
+      "latitude": 44.9469715
+    },
+    "event_price": "$2084.03",
+    "event_category": "VVIP",
+    "event_description": "at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum",
+    "event_gate": "GATE 2",
+    "event_tickets": 6895
+  }, {
+    "event_name": "Bluejam",
+    "event_date": "05/07/2021",
+    "event_time": "18:00",
+    "event_day": "Friday",
+    "event_location": {
+      "longitude": -39.8579118,
+      "latitude": -14.2329823
+    },
+    "event_price": "$77.08",
+    "event_category": "VVIP",
+    "event_description": "suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis",
+    "event_gate": "GATE 9",
+    "event_tickets": 5321
+  }, {
+    "event_name": "Twitterbeat",
+    "event_date": "23/06/2021",
+    "event_time": "23:00",
+    "event_day": "Monday",
+    "event_location": {
+      "longitude": 84.520832,
+      "latitude": 30.736899
+    },
+    "event_price": "$1374.60",
+    "event_category": "Platinum",
+    "event_description": "pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at",
+    "event_gate": "GATE 10",
+    "event_tickets": 5432
+  }]

@@ -29,6 +29,14 @@ services:
         depends_on:
             - mongodb
 
+    # to fill the database with dummy data
+    mongo-seed:
+        build: ./mongo_seed
+        links:
+            - mongodb
+        depends_on:
+            - mongodb
+
 volumes:
     data: {}
 
