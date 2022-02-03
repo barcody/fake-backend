@@ -30,20 +30,10 @@ async function main(){
 }
 
 main().catch(console.error);
+
 async function listDatabases(client){
     databasesList = await client.db().admin().listDatabases();
- 
     console.log("Databases:");
+
     databasesList.databases.forEach(db => console.log(` - ${db.name}`));
 };
-
-
-// async function dbs() {
-//     try {
-//         const db = await client.db().admin().listDatabases();
-//         console.log(db)
-//         db.datatbases.forEach(db => console.log(` - ${db.name}`));
-//     } catch (error) {
-//         console.log("Error!! " + error)
-//     }
-// }
