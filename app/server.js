@@ -1,7 +1,6 @@
-// declare function require(name:string);
-const { log } = require('console');
 const { MongoClient } = require('mongodb');
-const { Databases, Collections } = require('./constants');
+
+// load variables in .env file
 require("dotenv").config()
 
 /**
@@ -10,68 +9,37 @@ require("dotenv").config()
  * URI: mongodb://<username>:<password>@localhost:27017
  * See https://docs.mongodb.com/ecosystem/drivers/node/ for more details
  */
-
 const uri = process.env.MONGO_DB_URL;
-const client = new MongoClient(uri);
-console.log(client)
 
-async function main(){
- 
-    try {
-        // Connect to the MongoDB cluster
-        await client.connect();
- 
-        // Make the appropriate DB calls
-        await client.db("admin").command({ ping: 1 }); 
-        console.log("Connected successfully to server")
-
-        // List all databases
-        await listDatabases(client);
-
-        // fetch user details based on username
-        await showUserByUsername(client, "mmingeth");
-
-        const _res = await userLoginValidation(client, "mmingeth", "gDdPxZ")
-        // proper msg
-        if(_res == true) console.log("Correct credential");
-        else console.log("Incorrect credential");
-
-    } catch (e) {
-        console.error(e);
-    } finally {
-        await client.close();
-    }
-}
-
-main().catch(console.error);
-
-async function listDatabases(client){
-    databasesList = await client.db().admin().listDatabases();
-    console.log("Databases:");
-
-    databasesList.databases.forEach(db => console.log(` - ${db.name}`));
-};
-
-async function showUserByUsername(client, _username) {
+/**
+ * 
+ * @Singleton -> Database Singleton Object 
+ * 
+ * server.js is used throughout the app to access the db object. Using mongodb
+ * native drivers the db object contains a pool of connections that are used to
+ * make requests to the db. To use this singleton object simply require it and
+ * call getInstance(). 
+ * 
+ */
+var Singleton = (function () {
     
-    /**
-     *  Collection names 
-     *  [ "accounts", "events", "tickets", "users" ]
-     */
+    var instance; // DB Singleton Instance
 
-    const res = await client.db(Databases.FAKEY)
-    .collection(Collections.ACCOUNTS)
-    .findOne({ username: _username });
-    console.log("user details:")
-    console.log(res);
-}
+    async function createInstance() {
+        // var client = new MongoClient(uri); 
+        return new MongoClient(uri); // create a new mongo client instance
+    }
 
-async function userLoginValidation(client, _username, _password) {
+    return {
 
-    const res = await client.db(Databases.FAKEY)
-                            .collection(Collections.ACCOUNTS)
-                            .findOne({ username: _username })
-    const pass = res.password
-    if(pass == _password) return true 
-    else return false;
-}
+        /** @returns database instance */
+        getInstance: function () {
+            if (!instance) {
+                instance = createInstance();
+            }
+            return instance;
+        }
+    };
+})();
+
+exports.singleton = Singleton
