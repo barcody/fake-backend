@@ -1,0 +1,47 @@
+{
+  "name": "testnode",
+  "version": "1.0.0",
+  "description": "Node Files of test API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "set NODE_ENV=dev&&nodemon server.js",
+    "start-qas": "set NODE_ENV=dev&&nodemon server.js",
+    "start-prd": "set NODE_ENV=prd&&nodemon server.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "MongoDB"
+  ],
+  "author": "Hariharan V",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-cookiejar-support": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "compression": "^1.7.4",
+    "config": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.1",
+    "isomorphic-fetch": "^3.0.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.10.13",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodejs-nodemailer-outlook": "^1.2.3",
+    "qs": "^6.9.6",
+    "underscore": "^1.9.1",
+    "winston": "^3.3.3",
+    "winston-logrotate": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
