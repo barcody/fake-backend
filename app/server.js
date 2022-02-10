@@ -22,14 +22,12 @@ const uri = process.env.MONGO_DB_URL;
  * 
  */
 var Singleton = (function () {
-    
     var instance; // DB Singleton Instance
-
+    
     async function createInstance() {
-        // var client = new MongoClient(uri); 
         return new MongoClient(uri); // create a new mongo client instance
     }
-
+    
     return {
 
         /** @returns database instance */

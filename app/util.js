@@ -16,4 +16,15 @@ async function findByUserid(client, dbName, collectionName, _userid) {
                         .findOne( { user_id: _userid } )
 }
 
-module.exports = { findByUsername }
+async function findByTicketId(client, dbName, collectionName, _ticketid) {
+    return await client.db(dbName)
+                        .collection(collectionName)
+                        .findOne( { ticket_id: _ticketid} )
+}
+
+module.exports = { 
+    findByUsername, 
+    findByEmail,
+    findByUserid,
+    findByTicketId,
+}
