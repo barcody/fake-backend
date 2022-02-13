@@ -1,3 +1,5 @@
+const { Databases, Collections } = require('./constants');
+
 async function findByUsername(client, dbName, collectionName, _username) {
     return await client.db(dbName)
                         .collection(collectionName)
@@ -16,10 +18,11 @@ async function findByUserid(client, dbName, collectionName, _userid) {
                         .findOne( { user_id: _userid } )
 }
 
-async function findByTicketId(client, dbName, collectionName, _ticketid) {
-    return await client.db(dbName)
-                        .collection(collectionName)
-                        .findOne( { ticket_id: _ticketid} )
+async function findByTicketId(client, _ticketid) {
+    const res = await client.db(Databases.FAKEY)
+                            .collection(Collections.TICKETS)
+                            .findOne( { ticket_id: _ticketid} )
+    return res.ticket_validitty
 }
 
 module.exports = { 

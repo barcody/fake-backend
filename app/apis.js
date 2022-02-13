@@ -4,34 +4,38 @@ const port = 3000;
 const bodyParser = require('body-parser');  
 app.use(bodyParser.json());
 
-const { Databases, Collections } = require('./constants');
-
 const { findByUsername,
         findByTicketId } = require('./util')
 
 var { singleton } = require('./server');
 var Long = require('mongodb').Long;
-var dbInstance;
+let dbInstance;
 
-app.get('/d', async function(req, res) {
+/**
+ * 
+ * @summary check ticket validity
+ * @argument ticket_id
+ * @author Bassam
+ * @requires ticket_id
+ * @access public
+ * @returns ticket validity (bool)
+ */
+app.get('/validate', async function(req, res) {
 
-  _username = req.body.username;
-  const result  = await findByUsername(dbInstance,Databases.FAKEY, Collections.ACCOUNTS, _username)
+  _ticketid = Long.fromString(req.body.ticket_id) // cast to Long type to match db type
+  const isValid  = await findByTicketId(dbInstance, _ticketid)
+
+  // if(isValid) { paymentRequest() }
 
   res.send(
-    JSON.stringify(result)
+    JSON.stringify(isValid)
   )
 
 });
 
-app.get('/ticketid', async function(req, res) {
+// async function paymentRequest() { return "payment not implemented" }
 
-  _ticketid = Long.fromString(req.body.ticket_id) // cast to Long type to match db type
-  const result  = await findByTicketId(dbInstance,Databases.FAKEY, Collections.TICKETS, _ticketid)
-
-  res.send(
-    JSON.stringify(result)
-  )
+app.get('/reissue', async function(req, res) {
 
 });
 
