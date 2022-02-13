@@ -5,11 +5,11 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 const { findByUsername,
-        findByTicketId } = require('./util')
+        findByTicketId } = require('./app/util')
 
 var { singleton } = require('./server');
 var Long = require('mongodb').Long;
-let dbInstance;
+var dbInstance;
 
 /**
  * 
@@ -40,6 +40,7 @@ app.get('/reissue', async function(req, res) {
 });
 
 app.listen(port, async function() {
+  
   try {  
     dbInstance = await singleton.getInstance();
     await dbInstance.connect()

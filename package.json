@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "node apis.js",
-    "build": "node server.js"
+    "build": "node apis.js"
   },
   "dependencies": {
     "body-parser": "^1.19.1",
