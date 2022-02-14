@@ -1,7 +1,7 @@
-const { MongoClient } = require('mongodb');
+const { MongoClient } = require("mongodb");
 
 // load variables in .env file
-require("dotenv").config()
+require("dotenv").config();
 
 /**
  * 
@@ -22,22 +22,22 @@ const uri = process.env.MONGO_DB_URL;
  * 
  */
 var Singleton = (function () {
-    var instance; // DB Singleton Instance
+	var instance; // DB Singleton Instance
     
-    async function createInstance() {
-        return new MongoClient(new_uri); // create a new mongo client instance
-    }
+	async function createInstance() {
+		return new MongoClient(uri); // create a new mongo client instance
+	}
     
-    return {
+	return {
 
-        /** @returns database instance */
-        getInstance: function () {
-            if (!instance) {
-                instance = createInstance();
-            }
-            return instance;
-        }
-    };
+		/** @returns database instance */
+		getInstance: function () {
+			if (!instance) {
+				instance = createInstance();
+			}
+			return instance;
+		}
+	};
 })();
 
-exports.singleton = Singleton
+exports.singleton = Singleton;
