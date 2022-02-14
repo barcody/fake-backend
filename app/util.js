@@ -25,9 +25,23 @@ async function findByTicketId(client, _ticketid) {
 	return res.ticket_validitty;
 }
 
+async function 	cancelTicketInDB(client, _ticketid) {
+	const res = await client.db(Databases.FAKEY)
+							.collection(Collections.TICKETS)
+							.updateOne(
+								{ ticket_id: _ticketid },
+								{ $set: 
+									{ "ticket_validitty": false }
+								}
+							);
+
+	return res
+}
+
 module.exports = { 
 	findByUsername, 
 	findByEmail,
 	findByUserid,
 	findByTicketId,
+	cancelTicketInDB,
 };

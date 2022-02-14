@@ -4,7 +4,7 @@ const port = 3000;
 const bodyParser = require("body-parser");  
 app.use(bodyParser.json());
 
-const { findByTicketId } = require("./app/util");
+const { cancelTicketInDB, findByTicketId } = require("./app/util");
 
 var { singleton } = require("./server");
 var Long = require("mongodb").Long;
@@ -26,15 +26,42 @@ app.get("/validate", async function(req, res) {
 
 	// if(isValid) { paymentRequest() }
 
-	res.send(
+	res.status(200).send(
 		JSON.stringify(isValid)
 	);
 
 });
 
-// app.get("/reissue", async function(req, res) {
+app.get("/reissue", async function(req, res) {
 
-// });
+	const _ticketid = Long.fromString(req.body.ticket_id); // cast to Long type to match db type
+	const isCancelled = await cancelTicket(_ticketid)
+	console.log(isCancelled);
+	res.status(200).send(
+		// return new ticket
+		JSON.stringify(isCancelled.acknowledged)
+	)
+});
+
+/**
+ * 
+ * @param {ticket id} _ticketid 
+ * @returns 
+ */
+
+/**
+ * 
+ * @summary cancel ticket
+ * @param ticket_id
+ * @author Bassam
+ * @requires ticket_id
+ * @access private
+ * @returns ticket validity (bool)
+ */
+async function cancelTicket(_ticketid) {
+	const isValid = await cancelTicketInDB(dbInstance, _ticketid)
+	return isValid
+}
 
 app.listen(port, async function() {
   
