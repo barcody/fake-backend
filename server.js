@@ -25,7 +25,6 @@ var Singleton = (function () {
     var instance; // DB Singleton Instance
     
     async function createInstance() {
-        new_uri = "mongodb://admin:pass@localhost:27017/?maxPoolSize=20&w=majority"
         return new MongoClient(new_uri); // create a new mongo client instance
     }
     
