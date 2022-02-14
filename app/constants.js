@@ -1,13 +1,13 @@
 
 const Databases = {
-    FAKEY: "fakey"
-}
+	FAKEY: "fakey"
+};
 
 const Collections = {
-    ACCOUNTS: "accounts",
-    EVENTS: "events",
-    TICKETS: "tickets",
-    USERS: "users"
-}
+	ACCOUNTS: "accounts",
+	EVENTS: "events",
+	TICKETS: "tickets",
+	USERS: "users"
+};
 
-module.exports = { Databases, Collections}
+module.exports = { Databases, Collections};
