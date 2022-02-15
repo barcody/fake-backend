@@ -4,7 +4,9 @@ const port = 3000;
 const bodyParser = require("body-parser");  
 app.use(bodyParser.json());
 
-const { cancelTicketInDB, findByTicketId } = require("./app/util");
+const { cancelTicketInDB,
+		findByTicketId,
+		createNewTicket, } = require("./app/util");
 
 var { singleton } = require("./server");
 var Long = require("mongodb").Long;
@@ -18,6 +20,9 @@ var dbInstance;
  * @requires ticket_id
  * @access public
  * @returns ticket validity (bool)
+ * 
+ * @keys		->		@type
+ * ticket_id	->		string
  */
 app.get("/validate", async function(req, res) {
 
@@ -32,22 +37,39 @@ app.get("/validate", async function(req, res) {
 
 });
 
+/**
+ * 
+ * @summary cancel a ticket
+ * @argument ticket_id
+ * @author Bassam
+ * @requires ticket_id
+ * @access public
+ * @returns a new valid ticket
+ * 
+ * @keys		->		@type
+ * ticket_id	->		string
+ * username		->		string
+ * 	
+ */
 app.get("/reissue", async function(req, res) {
 
 	const _ticketid = Long.fromString(req.body.ticket_id); // cast to Long type to match db type
-	const isCancelled = await cancelTicket(_ticketid)
-	console.log(isCancelled);
-	res.status(200).send(
-		// return new ticket
-		JSON.stringify(isCancelled.acknowledged)
-	)
-});
+	const name = req.body.username
+	const isCancelled = await cancelTicket(_ticketid);
 
-/**
- * 
- * @param {ticket id} _ticketid 
- * @returns 
- */
+	if (!isCancelled) { 
+		const new_ticket = await createNewTikcet(dbInstance,name)
+		if(new_ticket) {
+			res.status(200).send(
+				JSON.stringify(new_ticket)
+			)	
+		} else {
+			res.status(200).send(
+				JSON.stringify("Invalid")
+			)
+		}
+	}
+});
 
 /**
  * 
@@ -56,11 +78,15 @@ app.get("/reissue", async function(req, res) {
  * @author Bassam
  * @requires ticket_id
  * @access private
- * @returns ticket validity (bool)
+ * @returns acknowledged (bool)
  */
 async function cancelTicket(_ticketid) {
 	const isValid = await cancelTicketInDB(dbInstance, _ticketid)
 	return isValid
+}
+
+async function createNewTikcet(client) {
+	return await createNewTicket(client)
 }
 
 app.listen(port, async function() {
