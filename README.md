@@ -40,5 +40,9 @@ db.createUser(
     }
 )
 ```
+Run backend server
+```bash
+npm run start
+```
 
-_Please create a [new issue](https://github.com/barcody/fake-backend/issues) if something unclear, or missing steps._
+_Please create a [new issue](https://github.com/barcody/fake-backend/issues) if something unclear, incorrect or missing steps._
