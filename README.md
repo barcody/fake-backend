@@ -21,7 +21,13 @@ cd fake-backend
 The below command runs mongodb and mongo-express containers.
 
 ```shell
-docker-compose -f docker-compose.yaml up -d
+make run
+```
+
+The below command stops the containers.
+
+```shell
+make stop
 ```
 
 > You may need to create a new root user to connect with mongodb, below command should help you.
@@ -40,7 +46,9 @@ db.createUser(
     }
 )
 ```
+
 Run backend server
+
 ```bash
 npm run start
 ```
